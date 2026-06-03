@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>💧 Agro Forte, Futuro Sustentável</h1>
+    <p>Conservação da água: produzindo mais e preservando o futuro.</p>
+</header>
+
+<nav>
+    <a href="#importancia">Importância</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#quiz">Quiz</a>
+</nav>
+
+<section id="banner">
+    <h2>A água é a base da vida e da agricultura.</h2>
+    <button onclick="mostrarMensagem()">Saiba Mais</button>
+</section>
+
+<section id="importancia">
+    <h2>🌱 Importância da Água no Agro</h2>
+    <p>
+        A água é essencial para a produção de alimentos.
+        Sem ela, não há irrigação, crescimento das plantas
+        nem segurança alimentar.
+    </p>
+</section>
+
+<section id="problemas">
+    <h2>⚠ Problemas do Desperdício</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Desperdício</h3>
+            <p>Uso excessivo na irrigação.</p>
+        </div>
+
+        <div class="card">
+            <h3>Poluição</h3>
+            <p>Contaminação de rios e nascentes.</p>
+        </div>
+
+        <div class="card">
+            <h3>Escassez</h3>
+            <p>Menor disponibilidade para futuras gerações.</p>
+        </div>
+    </div>
+</section>
+
+<section id="solucoes">
+    <h2>✅ Soluções Sustentáveis</h2>
+
+    <ul>
+        <li>Irrigação por gotejamento.</li>
+        <li>Captação da água da chuva.</li>
+        <li>Proteção de nascentes.</li>
+        <li>Reuso de água.</li>
+        <li>Monitoramento inteligente da irrigação.</li>
+    </ul>
+
+    <h3>Economia de Água</h3>
+
+    <input type="number" id="hectares" placeholder="Quantidade de hectares">
+
+    <button onclick="calcularEconomia()">
+        Calcular Economia
+    </button>
+
+    <p id="resultado"></p>
+</section>
+
+<section id="quiz">
+    <h2>🧠 Quiz Rápido</h2>
+
+    <p>Qual método economiza mais água na irrigação?</p>
+
+    <button onclick="resposta(false)">Aspersão</button>
+    <button onclick="resposta(true)">Gotejamento</button>
+
+    <p id="quizResultado"></p>
+</section>
+
+<footer>
+    <p>Projeto Agrinho 2026 - Conservação da Água no Campo</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
